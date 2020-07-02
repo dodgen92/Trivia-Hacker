@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class Hacker : MonoBehaviour {
 
@@ -60,9 +60,13 @@ public class Hacker : MonoBehaviour {
             level = int.Parse(input);
             AskForPassword();
         }
-        else if (input == "007") // easter egg
+        else if (input == "007") // easter eggs
         {
             Terminal.WriteLine("Please select a level Mr Bond!");
+        }
+        else if (input == "420")
+        {
+            Terminal.WriteLine("Okay Cheech, be for real");
         }
         else
         {
@@ -160,3 +164,4 @@ public class Hacker : MonoBehaviour {
         }
     }
 }
+
